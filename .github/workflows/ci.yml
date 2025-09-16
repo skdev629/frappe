@@ -22,18 +22,10 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=3
-      redis-cache:
+      redis:
         image: redis:6
         ports:
           - 6379:6379
-      redis-queue:
-        image: redis:6
-        ports:
-          - 6380:6379
-      redis-socketio:
-        image: redis:6
-        ports:
-          - 6381:6379
 
     steps:
       - name: Checkout code
@@ -49,6 +41,14 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -63,8 +63,8 @@ jobs:
         run: |
           bench init --frappe-branch version-15 frappe-bench
           cd frappe-bench
-          bench get-app --branch master apps/buopso_forms ../apps/buopso_forms
-          bench get-app --branch master apps/custom_payment_gateway ../apps/custom_payment_gateway
+          bench get-app ./apps/buopso_forms
+          bench get-app ./apps/custom_payment_gateway
           bench new-site test.local --mariadb-root-password root --admin-password admin
           bench --site test.local install-app buopso_forms
           bench --site test.local install-app custom_payment_gateway
