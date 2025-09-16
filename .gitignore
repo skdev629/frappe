@@ -1,3 +1,4 @@
+# ----------------------------------------
 # Python
 __pycache__/
 *.pyc
@@ -5,12 +6,17 @@ __pycache__/
 *.pyd
 *.env
 
-# Node
+# Virtualenv
+env/
+
+# ----------------------------------------
+# Node / JS
 node_modules/
 npm-debug.log
 yarn-error.log
 
-# Bench / Frappe
+# ----------------------------------------
+# Bench / Frappe Generated Files
 sites/*/private/
 sites/*/public/files/
 sites/*/public/backups/
@@ -19,26 +25,40 @@ sites/*/locks/
 sites/*/logs/
 sites/*/backups/
 sites/assets/
+sites/*/indexes/
+sites/*/touched_tables.json
+sites/*/site_config.json
 
-# Virtualenv
-env/
+# ----------------------------------------
+# Ignore runtime lock files
+config/pids/
+config/*.lock
 
-# Logs
-logs/
-*.log
+# ----------------------------------------
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# DB dumps
+# ----------------------------------------
+# Bench core apps (use official repos instead)
+apps/frappe/
+apps/erpnext/
+apps/payments/
+apps/crm/
+
+# ----------------------------------------
+# Database dumps
 *.sql
 *.sql.gz
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Ignore bench runtime stuff
+# ----------------------------------------
+# Bench misc junk
 1/
 Procfile
 exit
 SELECT
 archived/
-
+logs/
+*.log
