@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Bench / Frappe
+sites/*/private/
+sites/*/public/files/
+sites/*/public/backups/
+sites/*/error-snapshots/
+sites/*/locks/
+sites/*/logs/
+sites/*/backups/
+sites/assets/
+
+# Virtualenv
+env/
+
+# Logs
+logs/
+*.log
+
+# DB dumps
+*.sql
+*.sql.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore bench runtime stuff
+1/
+Procfile
+exit
+SELECT
+archived/
+

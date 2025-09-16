@@ -1,0 +1,183 @@
+Account
+Accounting Dimension Filter
+Accounting Dimension
+Accounts Settings
+Address Template
+Address
+Asset Category
+Asset Movement
+Asset Shift Factor
+Asset
+BOM Scrap Item
+BOM Update Log
+BOM
+Bank Account Subtype
+Bank Account Type
+Bank Account
+Bank Transaction
+Bank
+Batch
+Bin
+Bisect Nodes
+Buying Settings
+CRM Dashboard
+CRM Deal Status
+CRM Deal
+CRM Fields Layout
+CRM Global Settings
+CRM Organization
+CRM Telephony Agent
+CRM View Settings
+Code List
+Common Code
+Communication
+Company
+Contact
+Cost Center
+Country
+Coupon Code
+Currency
+Custom Field
+Custom Role
+Customer Group
+Customer
+Dashboard
+Delivery Note Item
+Delivery Note
+Delivery Settings
+Department
+Desk Page
+Desktop Icon
+Discussion Reply
+DocField
+DocShare
+DocType
+Domain
+Driver
+Dynamic Link
+Email Account
+Email Domain
+Email Group Member
+Email Group
+Email Queue Recipient
+Email Queue
+Email Rule
+Employee
+Event
+File
+Fiscal Year
+GL Entry
+Help Article
+Help Category
+Issue
+Item Barcode
+Item Group
+Item Price
+Item Supplier
+Item
+Job Card Item
+Job Card
+Journal Entry Account
+Journal Entry
+LDAP Settings
+Language
+Lead
+Logs To Clear
+Loyalty Program
+Manufacturing Settings
+Material Request
+Member
+Mode of Payment Account
+Mode of Payment
+Module Def
+Module Onboarding
+Note
+Notification Settings
+OAuth Authorization Code
+OAuth Bearer Token
+OAuth Client
+Operation
+Opportunity
+POS Closing Entry
+POS Invoice Merge Log
+POS Invoice
+POS Opening Entry
+POS Profile
+Package
+Party Type
+Patch Log
+Payment Entry
+Payment Gateway
+Payment Request
+Portal Menu Item
+Price List
+Print Format
+Print Style
+Process Payment Reconciliation Log
+Process Payment Reconciliation
+Project
+Property Setter
+Prospect Lead
+Prospect Opportunity
+Prospect
+Purchase Invoice
+Purchase Order Item
+Purchase Order
+Purchase Receipt Item
+Purchase Receipt
+Quality Inspection
+Quality Procedure
+Quotation
+Renamed Doc
+Report
+Role
+Sales Invoice Payment
+Sales Invoice
+Sales Order Item
+Sales Order
+Sales Person
+Scheduled Job Type
+Selling Settings
+Serial No
+Serial and Batch Bundle
+Serial and Batch Entry
+Series
+Server Script
+Shareholder
+Social Login Key
+Stock Entry Detail
+Stock Entry Type
+Stock Entry
+Stock Ledger Entry
+Stock Reconciliation Item
+Stock Reconciliation
+Stock Settings
+Style Settings
+Subcontracting Order
+Subscription Plan
+Supplier Scorecard
+Supplier
+Support Settings
+System Settings
+Task
+Terms and Conditions
+Territory
+Timesheet
+ToDo
+UOM Conversion Detail
+UOM
+UTM Campaign
+UTM Medium
+UTM Source
+Unhandled Email
+User Invitation
+User Type
+User
+Vehicle
+Warehouse
+Warranty Claim
+Work Order Operation
+Work Order
+Workflow
+Workspace
+Workstation
