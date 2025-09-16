@@ -1,0 +1,49 @@
+{
+ "app": "private",
+ "charts": [],
+ "content": "[{\"id\":\"5jkawGOHHz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Buopso CRM</span>\",\"col\":12}},{\"id\":\"vZElR46IjU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM LEADS\",\"col\":3}},{\"id\":\"LxsMDvlJES\",\"type\":\"paragraph\",\"data\":{\"text\":\"BU Forms\",\"col\":12}},{\"id\":\"kYHw8auLDv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Webhook logs\",\"col\":3}}]",
+ "creation": "2025-09-03 15:41:19.161334",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "grid",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Buopso CRM",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-09-10 11:45:51.495582",
+ "modified_by": "Administrator",
+ "module": "Buopso Forms",
+ "name": "Buopso CRM",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CRM LEADS",
+   "link_to": "Lead",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Webhook logs",
+   "link_to": "MSG91 Delivery Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Buopso CRM",
+ "type": "Workspace"
+}
